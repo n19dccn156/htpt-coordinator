@@ -13,4 +13,10 @@ public class index {
 
         return "index";
     }
+
+    @GetMapping("/index2")
+    public String login2Get() {
+
+        return "index2";
+    }
 }
